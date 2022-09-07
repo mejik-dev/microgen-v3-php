@@ -1,0 +1,35 @@
+{
+  "name": "microgen-v3/sdk",
+  "description": "Microgen SDK for PHP",
+  "type": "library",
+  "keywords": [],
+  "license": "MIT",
+  "homepage": "https://microgen.id",
+  "authors": [
+    {
+      "name": "Mejik",
+      "homepage": "https://microgen.id"
+    }
+  ],
+  "scripts": {
+    "test": "phpunit tests"
+  },
+  "autoload": {
+    "psr-4": {
+      "Microgen\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Microgen\\Tests\\": "tests/"
+    }
+  },
+  "require": {
+    "guzzlehttp/guzzle": "^7.4"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
